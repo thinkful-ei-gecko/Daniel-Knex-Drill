@@ -1,0 +1,23 @@
+INSERT INTO blogful_articles (title, date_published, content)
+Values 
+  ('Autobahn', now() - '21 days'::INTERVAL, 'Wir fahren auf der Autobahn'),
+  ('Radioactivity', now() - '23 days'::INTERVAL, 'Radio...activitaet'),
+  ('Computerliebe', now() - '10 days'::INTERVAL, 'Coldplay ripped this off'),
+  ('Tour de France', now() - '11 days'::INTERVAL, 'TOOUR...de FrAAANCE'),
+  ('Menschmaschine', now() - '42 days'::INTERVAL, 'Machiiiiine, Maschiine'),
+  ('Taschenrechner', now() - '2 days'::INTERVAL, 'Pocket Calculator'),
+  ('Die Roboter', now() - '76 days'::INTERVAL, 'Jetzt wollen wir tanzen mechanik'),
+  ('Eisbaer', now() - '8 days'::INTERVAL, 'Ich mochte ein Eisbaer sein'),
+  ('Liebeslied', now() - '74 days'::INTERVAL, 'Es war so schnell, wie alles begannt'),  
+  ('Franz Schubert', now() - '98 days'::INTERVAL, 'Wrote some symphonies or something'),
+  ('David Oistrakh', now() - '22 days'::INTERVAL, 'Was the pride of the Soviet violinists'),
+  ('Databases and You', now() - '80 days'::INTERVAL, 'I...I can see the Matrix'),
+  ('Mechanical Keybords: A love story', now() - '21 days'::INTERVAL, 'CLACC'),
+  ('My computer is slow', now() - '36 days'::INTERVAL, 'Better download some more RAM'),
+  ('Hide and Seek Legends', now() - '96 days'::INTERVAL, 'I''m behind like 7 proxies'),
+  ('I am running out of ideas', now() - '21 days'::INTERVAL, 'Out of Kraftwerk songs'),
+  ('Harder, Better, Faster, Stronger', now() - '21 days'::INTERVAL, 'Edwin Birdsong''s Cola Bottle Baby'),
+  ('Afrika Bambaataa''s Planet Rock', now() - '21 days'::INTERVAL, 'Trans-Europe Express...got it!'),
+  ('Command Line Warrior', now() - '5 days'::INTERVAL, 'I made a file. Am I a hacker yet?'),
+  ('Did I really sit down and do this?', now() - '21 days'::INTERVAL, 'I need more to do'),
+  ('Well, that''s it', now() - '21 days'::INTERVAL, 'Finished with the database')
